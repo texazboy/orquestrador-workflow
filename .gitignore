@@ -1,0 +1,20 @@
+# Caches do Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+
+# Saídas temporárias de execução (os gabaritos versionados ficam em data/)
+/tmp/saida_*.json
+saida*.json
+
+# Artefatos de sistema operacional / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp

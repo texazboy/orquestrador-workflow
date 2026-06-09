@@ -1,0 +1,70 @@
+{
+  "tasks": [
+    {
+      "id": "T01",
+      "name": "Processar o lote de pedidos",
+      "priority": 5
+    },
+    {
+      "id": "T02",
+      "name": "Validar o lote de pedidos",
+      "priority": 5
+    },
+    {
+      "id": "T03",
+      "name": "Compilar o lote de pedidos",
+      "priority": 1
+    },
+    {
+      "id": "T04",
+      "name": "Indexar o lote de pedidos",
+      "priority": 9
+    },
+    {
+      "id": "T05",
+      "name": "Sincronizar o lote de pedidos",
+      "priority": 2
+    },
+    {
+      "id": "T06",
+      "name": "Exportar o lote de pedidos",
+      "priority": 7
+    },
+    {
+      "id": "T07",
+      "name": "Importar o lote de pedidos",
+      "priority": 8
+    },
+    {
+      "id": "T08",
+      "name": "Agregar o lote de pedidos",
+      "priority": 3
+    }
+  ],
+  "dependencies": [
+    {
+      "from": "T01",
+      "to": "T03"
+    },
+    {
+      "from": "T02",
+      "to": "T03"
+    },
+    {
+      "from": "T03",
+      "to": "T04"
+    },
+    {
+      "from": "T03",
+      "to": "T05"
+    },
+    {
+      "from": "T05",
+      "to": "T06"
+    },
+    {
+      "from": "T08",
+      "to": "T06"
+    }
+  ]
+}

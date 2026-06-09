@@ -1,0 +1,18 @@
+{
+  "projeto": "Orquestrador de Agentes Autônomos (Workflow Engine)",
+  "ciclo_detectado": true,
+  "ciclo": [
+    "A01",
+    "A02",
+    "A03",
+    "A01"
+  ],
+  "ordem_execucao": [],
+  "estatisticas": {
+    "total_tarefas": 10,
+    "total_dependencias_informadas": 7,
+    "total_dependencias_unicas": 6,
+    "dependencias_duplicadas_ignoradas": 1,
+    "nos_isolados": 2
+  }
+}

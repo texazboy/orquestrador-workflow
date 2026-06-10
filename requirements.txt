@@ -1,0 +1,4 @@
+# O projeto roda só com a biblioteca padrão do Python (3.8+).
+# Não há dependências externas: o núcleo (grafo, heap, DFS, Kahn) e o gerador
+# de dados foram escritos do zero. Este arquivo fica aqui só para deixar
+# explícito que não é preciso instalar nada.

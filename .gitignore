@@ -18,3 +18,4 @@ saida*.json
 .idea/
 .vscode/
 *.swp
+data/
